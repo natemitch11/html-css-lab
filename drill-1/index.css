@@ -1,0 +1,28 @@
+.head {
+  background: rgb(68, 68, 68);
+  grid-area: header;
+}
+.lside {
+  background: rgb(216, 216, 216);
+  grid-area: gutter1;
+}
+.rside {
+  background: rgb(216, 216, 216);
+  grid-area: gutter2;
+}
+#bodies {
+  background: white;
+  grid-area: body;
+}
+.foot {
+  background: rgb(34, 34, 34);
+  grid-area: footer;
+}
+.container {
+  display: grid;
+  height: auto;
+  width: 100%;
+  grid-template-columns: 15vw 70vw 15vw;
+  grid-template-rows: 15vh 75vh 10vh;
+  grid-template-areas: "header header header" "gutter1 body gutter2" "gutter1 footer gutter2";
+}
