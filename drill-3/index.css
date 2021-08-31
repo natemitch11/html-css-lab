@@ -1,0 +1,45 @@
+.top {
+  height: 400px;
+}
+#gray {
+  display: flex;
+  background-color: rgba(216, 216, 216);
+  height: 115px;
+  width: 100%;
+  align-items: center;
+}
+#box {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(74, 144, 266);
+  margin: 15px auto 15px 30px;
+}
+#text {
+  font-size: 24px;
+  font-family: sans-serif;
+  padding: 30px;
+}
+
+.color-section {
+  height: 70vh;
+}
+#blue {
+  background-color: rgba(74, 144, 266);
+  height: 25%;
+  width: 100%;
+}
+#teal {
+  background-color: rgba(80, 227, 194);
+  height: 25%;
+  width: 100%;
+}
+#seafoam {
+  background-color: rgba(184, 233, 134);
+  height: 25%;
+  width: 100%;
+}
+#yellow {
+  background-color: rgba(248, 231, 28);
+  height: 25%;
+  width: 100%;
+}
