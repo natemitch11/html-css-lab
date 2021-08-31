@@ -1,0 +1,70 @@
+.top {
+  box-sizing: border-box;
+  margin: 20px;
+  padding-bottom: 15px;
+  padding-left: 7px;
+  border: 3px solid black;
+  height: 25vh;
+  display: grid;
+  grid-template-columns: 0.125fr 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-template-areas: "purp green blue";
+  align-items: end;
+}
+#purple {
+  background-color: purple;
+  height: 75%;
+  width: 80%;
+  grid-area: purp;
+}
+#green {
+  background-color: green;
+  height: 95%;
+  grid-area: green;
+}
+#blue {
+  position: relative;
+  background-color: lightblue;
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  left: 30px;
+}
+.middle {
+  box-sizing: border-box;
+  display: flex;
+  border: 3px dotted black;
+  height: 33vh;
+  margin: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#box-shadow {
+  background-color: rgb(230, 230, 164);
+  height: 85%;
+  width: 93%;
+  box-shadow: 10px 5px 5px darkgray;
+}
+.bottom {
+  box-sizing: border-box;
+  display: flex;
+  height: 33vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#text-box {
+  border: 3px solid rgb(245, 188, 188);
+  height: 90%;
+  width: 50%;
+  box-shadow: 10px 5px 5px darkgray;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Trebuchet MS";
+  font-weight: bold;
+}
+#text {
+  margin-top: 8vh;
+}
